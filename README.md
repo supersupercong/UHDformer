@@ -29,7 +29,7 @@ This is the official PyTorch codes for the paper
 ```
 # git clone this repository
 git clone https://github.com/supersupercong/UHDformer.git
-cd FeMaSR 
+cd UHDformer 
 
 # create new anaconda env
 conda create -n uhdformer python=3.8
