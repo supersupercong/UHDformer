@@ -13,13 +13,13 @@ This is the official PyTorch codes for the paper
 ## Main Results
 
 ### Low-light Image Enhancement on UHD-LL
-![low-light](imgs/low-light.png)
+<img src="imgs/low-light.png" width="30%">
 
 ### Image Dehazing on UHD-Haze
-![dehazing](imgs/dehazing.png)
+<img src="imgs/dehazing.png" width="30%">
 
 ### Image Deblurring on UHD-Blur
-![dehazing](imgs/deblurring.png)
+<img src="imgs/deblurring.png" width="30%">
 
 ## Dependencies and Installation
 
