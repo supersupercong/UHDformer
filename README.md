@@ -62,7 +62,7 @@ python setup.py develop
 
 ## Pre-trained Model
 
-[UHD-LL](https://drive.google.com/drive/folders/1XwIWOjOepUA-kXoaeOlzMDijVK4LMj-1?usp=sharing), UHD-Haze, UHD-Blur
+[UHD-LL](https://drive.google.com/drive/folders/1XwIWOjOepUA-kXoaeOlzMDijVK4LMj-1?usp=sharing), UHD-Haze [coming soon], UHD-Blur [coming soon]
 
 ### Train
 
