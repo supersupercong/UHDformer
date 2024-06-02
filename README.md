@@ -1,4 +1,4 @@
-# UHDformer 
+# UHDformer [AAAI-24]
 
 This is the official PyTorch codes for the paper  
 [Correlation Matching Transformation Transformers for UHD Image Restoration](https://ojs.aaai.org/index.php/AAAI/article/view/28341)  
