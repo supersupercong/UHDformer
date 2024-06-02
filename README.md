@@ -2,7 +2,20 @@
 
 This is the official PyTorch codes for the paper  
 [Correlation Matching Transformation Transformers for UHD Image Restoration](https://ojs.aaai.org/index.php/AAAI/article/view/28341)  
-[Cong Wang](https://scholar.google.com/citations?user=0DrHHRwAAAAJ&hl=zh-CN), [Jinshan Pan](https://jspan.github.io/), [Wei Wang](http://yipengqin.github.io/), [Gang Fu](https://scholar.google.com/citations?hl=zh-CN&user=2k1Hcd4AAAAJ), [Siyuan Liang](https://scholar.google.com/citations?hl=zh-CN&user=MLE3GekAAAAJ), Mengzhu Wang, [Xiao-Ming Wu](https://www4.comp.polyu.edu.hk/~csxmwu/), [Jun Liu](https://scholar.google.com/citations?hl=zh-CN&user=Q5Ild8UAAAAJ)
+[Cong Wang](https://scholar.google.com/citations?user=0DrHHRwAAAAJ&hl=zh-CN), [Jinshan Pan](https://jspan.github.io/), Wei Wang, [Gang Fu](https://scholar.google.com/citations?hl=zh-CN&user=2k1Hcd4AAAAJ), [Siyuan Liang](https://scholar.google.com/citations?hl=zh-CN&user=MLE3GekAAAAJ), Mengzhu Wang, [Xiao-Ming Wu](https://www4.comp.polyu.edu.hk/~csxmwu/), [Jun Liu](https://scholar.google.com/citations?hl=zh-CN&user=Q5Ild8UAAAAJ)
+
+## Abstract
+```
+This paper proposes UHDformer, a general Transformer for Ultra-High-Definition (UHD) image restoration. 
+UHDformer contains two learning spaces: (a) learning in high-resolution space and (b) learning in low-resolution space. 
+The former learns multi-level high-resolution features and fuses low-high features and reconstructs the residual images, while the latter
+explores more representative features learning from the highresolution ones to facilitate better restoration. To better improve feature representation in low-resolution space, we propose to build feature transformation from the high-resolution space to the low-resolution one. To that end, we propose two
+new modules: Dual-path Correlation Matching Transformation module (DualCMT) and Adaptive Channel Modulator (ACM). The DualCMT selects top C/r (r is greater or equal to 1 which controls the squeezing level) correlation channels
+from the max-pooling/mean-pooling high-resolution features to replace low-resolution ones in Transformers, which can effectively
+squeeze useless content to improve the feature representation in low-resolution space to facilitate better recovery. The ACM is exploited to adaptively modulate multi-level high-resolution features, enabling to provide more useful features to low-resolution space for better learning. Experimental
+results show that our UHDformer reduces about ninetyseven percent model sizes compared with most state-of-theart methods while significantly improving performance under different training sets on 3 UHD image restoration tasks, including
+low-light image enhancement, image dehazing, and image deblurring.
+```
 
 ## Overall of UHDformer
 ![framework_img](imgs/overall.png)
