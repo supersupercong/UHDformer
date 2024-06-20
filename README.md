@@ -58,7 +58,7 @@ python setup.py develop
 
 ## Datasets Download
 
-[UHD-LL](https://drive.google.com/drive/folders/1yJTf874-rrBfgxlmElkGoOYxmu7jZMh4?usp=sharing), [UHD-Haze](https://drive.google.com/drive/folders/1EAHC8UM3HwrI2O-AHFDXpoRRCsyXXUTz?usp=sharing), [UHD-Blur](https://drive.google.com/drive/folders/18kYF-Apj_KBXc6prO--xvN6zoMZ7r_8j?usp=sharing)
+[UHD-LL](https://drive.google.com/drive/folders/1IneTwBsSiSSVXGoXQ9_hE1cO2d4Fd4DN), [UHD-Haze](https://drive.google.com/drive/folders/1PVCPkhqU_voPVFZj3FzAtUkJnQnF9lSa), [UHD-Blur](https://drive.google.com/drive/folders/1O6JYkOELLhpEkirAnxUB2JGWMqgwVvmX)
 
 ## Pre-trained Model
 
