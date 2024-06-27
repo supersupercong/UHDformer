@@ -22,9 +22,19 @@ low-light image enhancement, image dehazing, and image deblurring.
 
 ## Overall of UHDformer
 ![framework_img](imgs/overall.png)
+Overall framework of the proposed UHDformer. It mainly contains two parts: (a) learning in high-resolution space and (b) learning in low-resolution space.
+The former explores multi-level high-resolution features and fuses low-high features and reconstructs the residual images, 
+while the latter learns the low-resolution features via the Correlation Matching Transformation Transformer Block (as shown in (c)).
+Before transforming high-resolution features to low-resolution space, we use an Adaptive Channel Modulator (as shown in (d)) 
+to adaptively modulate multi-level high-resolution features to provide more representative content to low-resolution space.
+
 
 ## Dual-path Correlation Matching Transformation
 ![DualCMT](imgs/dual.png)
+(a) Dual-path Correlation Matching Transformation (DualCMT) and (b) Correlation Matching Transformation (CMT)}.
+DualCMT contains Mean-Pooling and Max-Pooling-based CMT followed by a Gated Feature Refinement (GFR) module.
+CMT selects the top C/r (C \text{denotes the number of channels; r>=1 is the squeezing factor which controls the squeezing level) channels from the pooling high-resolution features to replace the low-resolution features.
+GFR is used to refine the features for better representation.
 
 ## Main Results
 
