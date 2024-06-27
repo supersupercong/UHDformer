@@ -93,11 +93,14 @@ bash test.sh
 
 ## Citation
 ```
-@inproceedings{wang2024uhdformer,
-      author={Cong Wang and Jinshan Pan and Wei Wang and Gang Fu and Siyuan Liang and Mengzhu Wang and Xiao-Ming Wu and Jun Liu},
-      title={Correlation Matching Transformation Transformers for UHD Image Restoration}, 
-      year={2024},
-      Journal = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+@inproceedings{wang2024correlation,
+  title={Correlation Matching Transformation Transformers for UHD Image Restoration},
+  author={Wang, Cong and Pan, Jinshan and Wang, Wei and Fu, Gang and Liang, Siyuan and Wang, Mengzhu and Wu, Xiao-Ming and Liu, Jun},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={6},
+  pages={5336--5344},
+  year={2024}
 }
 ```
 
